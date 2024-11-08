@@ -1,0 +1,3 @@
+const FLAT_SPLITWISE_GROUP_EXPENSES = "group_block3803.json";
+
+export { FLAT_SPLITWISE_GROUP_EXPENSES };

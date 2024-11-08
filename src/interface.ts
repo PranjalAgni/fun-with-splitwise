@@ -10,8 +10,6 @@ export interface IExpense {
   repayments: Repayment[];
   created_at: string;
   created_by: CreatedOrUpdatedBy;
-  updated_at: string;
-  updated_by?: CreatedOrUpdatedBy;
   category: Category;
   users: User[];
 }
