@@ -1,0 +1,4555 @@
+[
+   {
+      "id": 0,
+      "name": "Non-group expenses",
+      "created_at": "2020-12-27T08:15:57Z",
+      "updated_at": "2024-11-08T09:31:11Z",
+      "members": [
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "amount": "-1396.7",
+                  "currency_code": "INR"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 47805985,
+            "amount": "2300.78"
+         },
+         {
+            "from": 37000083,
+            "to": 16269190,
+            "amount": "364.0",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 62859116,
+            "amount": "60.0"
+         },
+         {
+            "from": 51579520,
+            "to": 37000083,
+            "amount": "611.15",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 77482360,
+            "amount": "484.0"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 44911216,
+            "amount": "603.0"
+         },
+         {
+            "from": 37000083,
+            "to": 32097171,
+            "amount": "1436.0",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 8158502,
+            "amount": "2033.58",
+            "currency_code": "INR"
+         },
+         {
+            "from": 49939702,
+            "to": 37000083,
+            "amount": "1523.51",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 4835432,
+            "amount": "750.0",
+            "currency_code": "INR"
+         },
+         {
+            "from": 50723826,
+            "to": 37000083,
+            "amount": "4500.0",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 47805985,
+            "amount": "2300.78"
+         },
+         {
+            "from": 37000083,
+            "to": 16269190,
+            "amount": "364.0",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 62859116,
+            "amount": "60.0"
+         },
+         {
+            "from": 51579520,
+            "to": 37000083,
+            "amount": "611.15",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 77482360,
+            "amount": "484.0"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 44911216,
+            "amount": "603.0"
+         },
+         {
+            "from": 37000083,
+            "to": 32097171,
+            "amount": "1436.0",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 8158502,
+            "amount": "2033.58",
+            "currency_code": "INR"
+         },
+         {
+            "from": 49939702,
+            "to": 37000083,
+            "amount": "1523.51",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 4835432,
+            "amount": "750.0",
+            "currency_code": "INR"
+         },
+         {
+            "from": 50723826,
+            "to": 37000083,
+            "amount": "4500.0",
+            "currency_code": "INR"
+         }
+      ],
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-nongroup-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-nongroup-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-nongroup-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-nongroup-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-nongroup-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-nongroup-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-nongroup-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-nongroup-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-nongroup-500px.png"
+      }
+   },
+   {
+      "id": 33717597,
+      "name": "MS group",
+      "created_at": "2022-05-30T10:50:19Z",
+      "updated_at": "2022-12-20T15:23:07Z",
+      "members": [
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "282.01"
+               }
+            ]
+         },
+         {
+            "id": 16269190,
+            "first_name": "Shubham",
+            "last_name": "Pandey",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-200px.png"
+            },
+            "custom_picture": false,
+            "email": "shubham9411@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-282.01"
+               }
+            ]
+         },
+         {
+            "id": 35551601,
+            "first_name": "kirti",
+            "last_name": "sharma",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-200px.png"
+            },
+            "custom_picture": false,
+            "email": "kirti9650sharma@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [
+         {
+            "to": 37000083,
+            "from": 16269190,
+            "amount": "282.01",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 16269190,
+            "to": 37000083,
+            "amount": "282.01",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/w3sXKLDVoec+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby33-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby33-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby33-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby33-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby33-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby33-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby33-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-500px.png"
+      }
+   },
+   {
+      "id": 35937535,
+      "name": "Bhukkad",
+      "created_at": "2022-07-25T17:22:10Z",
+      "updated_at": "2023-12-25T15:40:21Z",
+      "members": [
+         {
+            "id": 49939702,
+            "first_name": "as8299816113@paytm",
+            "last_name": "Ashu",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aspkingas@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "479.0"
+               }
+            ]
+         },
+         {
+            "id": 47805985,
+            "first_name": "sandesh",
+            "last_name": "rai",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-200px.png"
+            },
+            "custom_picture": false,
+            "email": "sandesh.rai99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 32097171,
+            "first_name": "Vishesh",
+            "last_name": "Chhabra",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "vishuchhabra98@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-479.0"
+               }
+            ]
+         },
+         {
+            "id": 5161665,
+            "first_name": "Mohneesh",
+            "last_name": "Daksh",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/small_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/medium_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/large_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg"
+            },
+            "custom_picture": true,
+            "email": "mohneeshdaksh_gmail.com054a@example.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 50723826,
+            "first_name": "Surya",
+            "last_name": "PG",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-200px.png"
+            },
+            "custom_picture": false,
+            "email": "suryapspk049@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 37000083,
+            "from": 49939702,
+            "amount": "2820.49",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 51579520,
+            "amount": "3144.32",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 37000083,
+            "amount": "2220.82",
+            "currency_code": "INR"
+         },
+         {
+            "to": 53149548,
+            "from": 49939702,
+            "amount": "334.33",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 53149548,
+            "amount": "334.33",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 32097171,
+            "amount": "677.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 32097171,
+            "amount": "500.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 32097171,
+            "from": 49939702,
+            "amount": "229.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 32097171,
+            "from": 5161665,
+            "amount": "469.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5161665,
+            "from": 37000083,
+            "amount": "709.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 5161665,
+            "amount": "240.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 50723826,
+            "amount": "88.33",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50723826,
+            "from": 51579520,
+            "amount": "88.33",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 32097171,
+            "to": 37000083,
+            "amount": "479.0",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/wVy7Z7xL89y+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue20-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue20-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue20-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue20-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue20-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue20-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue20-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-500px.png"
+      }
+   },
+   {
+      "id": 36740085,
+      "name": "Kerala trip",
+      "created_at": "2022-08-12T08:07:58Z",
+      "updated_at": "2023-10-10T07:25:35Z",
+      "members": [
+         {
+            "id": 50857128,
+            "first_name": "Mehak",
+            "last_name": "Aggarwal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-200px.png"
+            },
+            "custom_picture": false,
+            "email": "mehakagg149@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 17158221,
+            "first_name": "AAYUSHI",
+            "last_name": "ANAND",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aayushianand95@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 18198132,
+            "first_name": "Chaitanya",
+            "last_name": "Nagpal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-200px.png"
+            },
+            "custom_picture": false,
+            "email": "chaitanya211196@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 20840506,
+            "first_name": "Shubham",
+            "last_name": "Gupta",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/20840506/small_1e7795c0-3cdd-4996-9195-01dbba8bb226.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/20840506/medium_1e7795c0-3cdd-4996-9195-01dbba8bb226.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/20840506/large_1e7795c0-3cdd-4996-9195-01dbba8bb226.jpeg"
+            },
+            "custom_picture": true,
+            "email": "npti.shubham26@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 50859918,
+            "first_name": "Rohit",
+            "last_name": "Babhulkar",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/small_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/medium_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/large_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg"
+            },
+            "custom_picture": true,
+            "email": "rohitvb747@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 17158221,
+            "from": 50857128,
+            "amount": "346.82",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 50859918,
+            "amount": "141.66",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 20840506,
+            "amount": "2011.69",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 18198132,
+            "amount": "385.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 17158221,
+            "amount": "2885.17",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50857128,
+            "from": 18198132,
+            "amount": "1293.13",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 20840506,
+            "amount": "1609.72",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 18198132,
+            "amount": "1427.4",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 50859918,
+            "amount": "1495.81",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50857128,
+            "from": 20840506,
+            "amount": "458.08",
+            "currency_code": "INR"
+         },
+         {
+            "to": 20840506,
+            "from": 37000083,
+            "amount": "485.95",
+            "currency_code": "INR"
+         },
+         {
+            "to": 20840506,
+            "from": 50859918,
+            "amount": "3593.54",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 50857128,
+            "amount": "1404.39",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50859918,
+            "from": 37000083,
+            "amount": "5231.01",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": "trip",
+      "invite_link": "https://www.splitwise.com/join/ELNi3ojTkpx+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby45-trip-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby45-trip-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby45-trip-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby45-trip-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby45-trip-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby45-trip-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby45-trip-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-500px.png"
+      }
+   },
+   {
+      "id": 37016813,
+      "name": "Misc expenses ",
+      "created_at": "2022-08-17T16:53:30Z",
+      "updated_at": "2023-10-10T07:25:35Z",
+      "members": [
+         {
+            "id": 50857128,
+            "first_name": "Mehak",
+            "last_name": "Aggarwal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-200px.png"
+            },
+            "custom_picture": false,
+            "email": "mehakagg149@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 17158221,
+            "first_name": "AAYUSHI",
+            "last_name": "ANAND",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aayushianand95@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 18198132,
+            "first_name": "Chaitanya",
+            "last_name": "Nagpal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-200px.png"
+            },
+            "custom_picture": false,
+            "email": "chaitanya211196@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 50859918,
+            "first_name": "Rohit",
+            "last_name": "Babhulkar",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/small_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/medium_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/large_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg"
+            },
+            "custom_picture": true,
+            "email": "rohitvb747@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": "home",
+      "invite_link": "https://www.splitwise.com/join/eedXYXhmC2o+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby37-house-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby37-house-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby37-house-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby37-house-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-ruby37-house-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby37-house-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby37-house-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-500px.png"
+      }
+   },
+   {
+      "id": 39069844,
+      "name": "Dussehra",
+      "created_at": "2022-10-06T10:33:52Z",
+      "updated_at": "2023-05-21T13:53:21Z",
+      "members": [
+         {
+            "id": 51579520,
+            "first_name": "Akshat",
+            "last_name": "Anand",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/small_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/medium_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/large_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg"
+            },
+            "custom_picture": true,
+            "email": "akshatanand99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "1604.0"
+               }
+            ]
+         },
+         {
+            "id": 32097171,
+            "first_name": "Vishesh",
+            "last_name": "Chhabra",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "vishuchhabra98@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-1604.0"
+               }
+            ]
+         },
+         {
+            "id": 46522483,
+            "first_name": "Rohah",
+            "last_name": "Rnc",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue4-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue4-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue4-200px.png"
+            },
+            "custom_picture": false,
+            "email": "rohan.anilbibha@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 49939702,
+            "first_name": "as8299816113@paytm",
+            "last_name": "Ashu",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aspkingas@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 5161665,
+            "first_name": "Mohneesh",
+            "last_name": "Daksh",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/small_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/medium_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/large_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg"
+            },
+            "custom_picture": true,
+            "email": "mohneeshdaksh_gmail.com054a@example.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 51579520,
+            "from": 32097171,
+            "amount": "970.4",
+            "currency_code": "INR"
+         },
+         {
+            "to": 32097171,
+            "from": 37000083,
+            "amount": "381.4",
+            "currency_code": "INR"
+         },
+         {
+            "to": 32097171,
+            "from": 46522483,
+            "amount": "664.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 32097171,
+            "amount": "75.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 37000083,
+            "amount": "2984.8",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 46522483,
+            "amount": "991.2",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 37000083,
+            "amount": "269.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 53149548,
+            "amount": "520.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 46522483,
+            "from": 51579520,
+            "amount": "2396.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 46522483,
+            "amount": "740.2",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 49939702,
+            "amount": "1084.8",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 5161665,
+            "amount": "520.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 53149548,
+            "from": 51579520,
+            "amount": "520.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5161665,
+            "from": 51579520,
+            "amount": "520.0",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 37000083,
+            "to": 51579520,
+            "amount": "1604.0",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/VV1p2Mamiz1+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal14-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal14-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal14-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal14-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal14-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-teal14-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-teal14-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-teal-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-teal-500px.png"
+      }
+   },
+   {
+      "id": 39189231,
+      "name": "Mhv B17 201",
+      "created_at": "2022-10-09T07:33:54Z",
+      "updated_at": "2024-03-15T17:37:04Z",
+      "members": [
+         {
+            "id": 47805985,
+            "first_name": "sandesh",
+            "last_name": "rai",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-200px.png"
+            },
+            "custom_picture": false,
+            "email": "sandesh.rai99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-4204.32"
+               }
+            ]
+         },
+         {
+            "id": 5161665,
+            "first_name": "Mohneesh",
+            "last_name": "Daksh",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/small_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/medium_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/5161665/large_3239a7f7-2708-49ec-bfba-1b880dfbfb62.jpeg"
+            },
+            "custom_picture": true,
+            "email": "mohneeshdaksh_gmail.com054a@example.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "4825.57"
+               }
+            ]
+         },
+         {
+            "id": 62859116,
+            "first_name": "Sanjay",
+            "last_name": "Rai",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal1-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal1-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal1-200px.png"
+            },
+            "custom_picture": false,
+            "email": "rai00710@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-621.25"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [
+         {
+            "to": 37000083,
+            "from": 47805985,
+            "amount": "4447.57",
+            "currency_code": "INR"
+         },
+         {
+            "to": 47805985,
+            "from": 62859116,
+            "amount": "243.25",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 62859116,
+            "amount": "378.0",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 47805985,
+            "to": 37000083,
+            "amount": "4204.32",
+            "currency_code": "INR"
+         },
+         {
+            "from": 62859116,
+            "to": 37000083,
+            "amount": "621.25",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": "home",
+      "invite_link": "https://www.splitwise.com/join/U5hWZnvYBZF+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/small_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg",
+         "medium": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/medium_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg",
+         "large": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/large_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg",
+         "xlarge": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/xlarge_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg",
+         "xxlarge": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/xxlarge_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg",
+         "original": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg"
+      },
+      "tall_avatar": {
+         "xlarge": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/xlarge_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg",
+         "large": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/large_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg"
+      },
+      "custom_avatar": true,
+      "cover_photo": {
+         "xxlarge": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/xxlarge_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg",
+         "xlarge": "https://splitwise.s3.amazonaws.com/uploads/group/avatar/39189231/xlarge_2ba0b176-5d91-45ed-8258-5bc88016ac49.jpeg"
+      }
+   },
+   {
+      "id": 41198326,
+      "name": "After Office hours",
+      "created_at": "2022-12-05T03:59:19Z",
+      "updated_at": "2024-04-12T17:33:50Z",
+      "members": [
+         {
+            "id": 12087308,
+            "first_name": "Neha",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal37-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal37-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal37-200px.png"
+            },
+            "custom_picture": false,
+            "email": "nehatantway1998@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "797.75"
+               }
+            ]
+         },
+         {
+            "id": 4835432,
+            "first_name": "sharique",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "sharique2523@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "606.75"
+               }
+            ]
+         },
+         {
+            "id": 16269190,
+            "first_name": "Shubham",
+            "last_name": "Pandey",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-200px.png"
+            },
+            "custom_picture": false,
+            "email": "shubham9411@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-17.75"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-702.25"
+               }
+            ]
+         },
+         {
+            "id": 52322309,
+            "first_name": "Vineeth",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-200px.png"
+            },
+            "custom_picture": false,
+            "email": "vineethduvvurip@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-702.25"
+               }
+            ]
+         },
+         {
+            "id": 35551601,
+            "first_name": "kirti",
+            "last_name": "sharma",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-200px.png"
+            },
+            "custom_picture": false,
+            "email": "kirti9650sharma@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "17.75"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 4835432,
+            "from": 52322309,
+            "amount": "832.25",
+            "currency_code": "INR"
+         },
+         {
+            "to": 52322309,
+            "from": 12087308,
+            "amount": "208.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 52322309,
+            "from": 16269190,
+            "amount": "128.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 52322309,
+            "from": 35551601,
+            "amount": "34.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 35551601,
+            "amount": "314.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 12087308,
+            "from": 4835432,
+            "amount": "1179.75",
+            "currency_code": "INR"
+         },
+         {
+            "to": 16269190,
+            "from": 4835432,
+            "amount": "302.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 37000083,
+            "amount": "942.25",
+            "currency_code": "INR"
+         },
+         {
+            "to": 35551601,
+            "from": 12087308,
+            "amount": "174.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 35551601,
+            "from": 16269190,
+            "amount": "191.75",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 52322309,
+            "amount": "240.0",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 16269190,
+            "to": 4835432,
+            "amount": "17.75",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 4835432,
+            "amount": "589.0",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 12087308,
+            "amount": "113.25",
+            "currency_code": "INR"
+         },
+         {
+            "from": 52322309,
+            "to": 12087308,
+            "amount": "684.5",
+            "currency_code": "INR"
+         },
+         {
+            "from": 52322309,
+            "to": 35551601,
+            "amount": "17.75",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/Dqb3SYnSAuZ+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange7-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange7-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange7-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange7-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange7-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange7-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange7-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-500px.png"
+      }
+   },
+   {
+      "id": 41422565,
+      "name": "Banaras",
+      "created_at": "2022-12-11T10:40:26Z",
+      "updated_at": "2022-12-11T10:44:27Z",
+      "members": [
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 61642037,
+            "first_name": "Shubham",
+            "last_name": "Tripathi",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby34-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby34-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby34-200px.png"
+            },
+            "custom_picture": false,
+            "email": "shubhamtripathi23197@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": "trip",
+      "invite_link": "https://www.splitwise.com/join/R1LjvxEdRd5+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby9-trip-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby9-trip-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby9-trip-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby9-trip-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-ruby9-trip-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby9-trip-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-ruby9-trip-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-ruby-500px.png"
+      }
+   },
+   {
+      "id": 42599202,
+      "name": "Goa",
+      "created_at": "2023-01-08T05:49:14Z",
+      "updated_at": "2023-02-06T04:20:07Z",
+      "members": [
+         {
+            "id": 35551601,
+            "first_name": "kirti",
+            "last_name": "sharma",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby3-200px.png"
+            },
+            "custom_picture": false,
+            "email": "kirti9650sharma@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 4835432,
+            "first_name": "sharique",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "sharique2523@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 5951204,
+            "first_name": "Neloy",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-200px.png"
+            },
+            "custom_picture": false,
+            "email": "neloy.dutta@live.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 16269190,
+            "first_name": "Shubham",
+            "last_name": "Pandey",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange47-200px.png"
+            },
+            "custom_picture": false,
+            "email": "shubham9411@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 20837420,
+            "first_name": "Poorvi",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-200px.png"
+            },
+            "custom_picture": false,
+            "email": "poorviknit@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 25649335,
+            "first_name": "Ashish",
+            "last_name": "Jha",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "ashishat763@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 52322309,
+            "first_name": "Vineeth",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-200px.png"
+            },
+            "custom_picture": false,
+            "email": "vineethduvvurip@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 18198132,
+            "first_name": "Chaitanya",
+            "last_name": "Nagpal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-200px.png"
+            },
+            "custom_picture": false,
+            "email": "chaitanya211196@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 17158221,
+            "first_name": "AAYUSHI",
+            "last_name": "ANAND",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aayushianand95@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 63083928,
+            "first_name": "Harini",
+            "last_name": "Reddy",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal12-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal12-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal12-200px.png"
+            },
+            "custom_picture": false,
+            "email": "harinibaddam99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 25960127,
+            "first_name": "Venkat",
+            "last_name": "Nikhil kotagiri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue7-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue7-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue7-200px.png"
+            },
+            "custom_picture": false,
+            "email": "kvns29991@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 15967934,
+            "first_name": "Aditya",
+            "last_name": "Arora",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange14-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange14-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange14-200px.png"
+            },
+            "custom_picture": false,
+            "email": "adityaarora15@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 18198132,
+            "from": 5951204,
+            "amount": "1102.73",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 15967934,
+            "amount": "12272.1",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 16269190,
+            "amount": "6442.61",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 18198132,
+            "amount": "3600.32",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 20837420,
+            "amount": "5689.07",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 25649335,
+            "amount": "9306.58",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25960127,
+            "from": 18198132,
+            "amount": "5211.74",
+            "currency_code": "INR"
+         },
+         {
+            "to": 35551601,
+            "from": 18198132,
+            "amount": "8825.09",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 18198132,
+            "amount": "1938.72",
+            "currency_code": "INR"
+         },
+         {
+            "to": 52322309,
+            "from": 18198132,
+            "amount": "8621.12",
+            "currency_code": "INR"
+         },
+         {
+            "to": 63083928,
+            "from": 18198132,
+            "amount": "5830.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 5951204,
+            "amount": "853.82",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 5951204,
+            "amount": "76.92",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 52322309,
+            "amount": "279.99",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 5951204,
+            "amount": "2194.69",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 37000083,
+            "amount": "1220.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 16269190,
+            "from": 5951204,
+            "amount": "368.89",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 20837420,
+            "amount": "300.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 25960127,
+            "amount": "300.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 35551601,
+            "amount": "300.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 63083928,
+            "amount": "300.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 17158221,
+            "amount": "1075.22",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 20837420,
+            "amount": "54.69",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 25960127,
+            "amount": "76.92",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 35551601,
+            "amount": "76.93",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 37000083,
+            "amount": "76.92",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 52322309,
+            "amount": "56.93",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 63083928,
+            "amount": "76.93",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 25649335,
+            "amount": "1475.01",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 18198132,
+            "amount": "786.1",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 17158221,
+            "amount": "2680.49",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 52322309,
+            "amount": "4713.1",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 4835432,
+            "amount": "16708.18",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 4835432,
+            "amount": "1897.06",
+            "currency_code": "INR"
+         },
+         {
+            "to": 16269190,
+            "from": 4835432,
+            "amount": "6408.07",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 20837420,
+            "amount": "3336.41",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 25960127,
+            "amount": "2562.84",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 35551601,
+            "amount": "4733.09",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 37000083,
+            "amount": "1968.85",
+            "currency_code": "INR"
+         },
+         {
+            "to": 4835432,
+            "from": 63083928,
+            "amount": "2757.42",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 15967934,
+            "amount": "1754.79",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 15967934,
+            "amount": "130.3",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 17158221,
+            "amount": "417.77",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 52322309,
+            "amount": "2054.7",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 16269190,
+            "amount": "1140.81",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 35551601,
+            "amount": "2494.69",
+            "currency_code": "INR"
+         },
+         {
+            "to": 20837420,
+            "from": 15967934,
+            "amount": "11843.03",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 25960127,
+            "amount": "494.69",
+            "currency_code": "INR"
+         },
+         {
+            "to": 15967934,
+            "from": 63083928,
+            "amount": "494.69",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 16269190,
+            "amount": "1854.16",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 16269190,
+            "amount": "238.44",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 16269190,
+            "amount": "76.92",
+            "currency_code": "INR"
+         },
+         {
+            "to": 16269190,
+            "from": 52322309,
+            "amount": "648.88",
+            "currency_code": "INR"
+         },
+         {
+            "to": 16269190,
+            "from": 20837420,
+            "amount": "646.67",
+            "currency_code": "INR"
+         },
+         {
+            "to": 16269190,
+            "from": 35551601,
+            "amount": "1011.55",
+            "currency_code": "INR"
+         },
+         {
+            "to": 16269190,
+            "from": 63083928,
+            "amount": "668.88",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 20837420,
+            "amount": "590.07",
+            "currency_code": "INR"
+         },
+         {
+            "to": 52322309,
+            "from": 20837420,
+            "amount": "317.78",
+            "currency_code": "INR"
+         },
+         {
+            "to": 35551601,
+            "from": 20837420,
+            "amount": "630.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 20837420,
+            "amount": "602.78",
+            "currency_code": "INR"
+         },
+         {
+            "to": 20837420,
+            "from": 25960127,
+            "amount": "52.22",
+            "currency_code": "INR"
+         },
+         {
+            "to": 20837420,
+            "from": 63083928,
+            "amount": "272.22",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 25960127,
+            "amount": "1765.07",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 35551601,
+            "amount": "853.83",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 37000083,
+            "amount": "874.48",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 52322309,
+            "amount": "570.07",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 63083928,
+            "amount": "590.08",
+            "currency_code": "INR"
+         },
+         {
+            "to": 35551601,
+            "from": 52322309,
+            "amount": "640.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 35551601,
+            "amount": "625.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 25960127,
+            "amount": "625.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 52322309,
+            "from": 25960127,
+            "amount": "20.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25960127,
+            "from": 63083928,
+            "amount": "685.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 52322309,
+            "from": 37000083,
+            "amount": "19.99",
+            "currency_code": "INR"
+         },
+         {
+            "to": 63083928,
+            "from": 52322309,
+            "amount": "15.22",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": "trip",
+      "invite_link": "https://www.splitwise.com/join/F3yYtjt9nVZ+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange1-trip-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange1-trip-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange1-trip-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange1-trip-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange1-trip-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange1-trip-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange1-trip-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-500px.png"
+      }
+   },
+   {
+      "id": 43901226,
+      "name": "Hyderabad Stay",
+      "created_at": "2023-02-11T03:49:49Z",
+      "updated_at": "2024-05-05T09:23:12Z",
+      "members": [
+         {
+            "id": 18198132,
+            "first_name": "Chaitanya",
+            "last_name": "Nagpal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-200px.png"
+            },
+            "custom_picture": false,
+            "email": "chaitanya211196@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 9211862,
+            "first_name": "Ashis",
+            "last_name": "Kar",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange4-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange4-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange4-200px.png"
+            },
+            "custom_picture": false,
+            "email": "ashis.kar91@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 25649335,
+            "first_name": "Ashish",
+            "last_name": "Jha",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "ashishat763@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 25960127,
+            "first_name": "Venkat",
+            "last_name": "Nikhil kotagiri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue7-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue7-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue7-200px.png"
+            },
+            "custom_picture": false,
+            "email": "kvns29991@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 5951204,
+            "first_name": "Neloy",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal18-200px.png"
+            },
+            "custom_picture": false,
+            "email": "neloy.dutta@live.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 49939702,
+            "first_name": "as8299816113@paytm",
+            "last_name": "Ashu",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aspkingas@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 9211862,
+            "from": 18198132,
+            "amount": "177.03",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 9211862,
+            "amount": "77.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25649335,
+            "from": 18198132,
+            "amount": "1013.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 25960127,
+            "from": 18198132,
+            "amount": "77.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 37000083,
+            "amount": "1568.8",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 5951204,
+            "amount": "200.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 25649335,
+            "amount": "1013.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 49939702,
+            "amount": "200.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 25960127,
+            "amount": "77.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 18198132,
+            "amount": "200.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 18198132,
+            "amount": "100.57",
+            "currency_code": "INR"
+         },
+         {
+            "to": 5951204,
+            "from": 9211862,
+            "amount": "99.43",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/Hb8JY3aNuCt+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange31-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange31-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange31-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange31-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange31-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange31-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange31-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-500px.png"
+      }
+   },
+   {
+      "id": 44042484,
+      "name": "Vihanga Expenses",
+      "created_at": "2023-02-14T15:58:32Z",
+      "updated_at": "2024-08-05T02:37:23Z",
+      "members": [
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-8395.19"
+               }
+            ]
+         },
+         {
+            "id": 50723826,
+            "first_name": "Surya",
+            "last_name": "PG",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-200px.png"
+            },
+            "custom_picture": false,
+            "email": "suryapspk049@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "629.82"
+               }
+            ]
+         },
+         {
+            "id": 47805985,
+            "first_name": "sandesh",
+            "last_name": "rai",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-200px.png"
+            },
+            "custom_picture": false,
+            "email": "sandesh.rai99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "7459.61"
+               }
+            ]
+         },
+         {
+            "id": 62859116,
+            "first_name": "Sanjay",
+            "last_name": "Rai",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal1-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal1-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal1-200px.png"
+            },
+            "custom_picture": false,
+            "email": "rai00710@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-1675.28"
+               }
+            ]
+         },
+         {
+            "id": 12024649,
+            "first_name": "Abhilash",
+            "last_name": "Agarwal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby29-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby29-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby29-200px.png"
+            },
+            "custom_picture": false,
+            "email": "xabhilash@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "3392.62"
+               }
+            ]
+         },
+         {
+            "id": 49939702,
+            "first_name": "as8299816113@paytm",
+            "last_name": "Ashu",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aspkingas@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-1791.25"
+               }
+            ]
+         },
+         {
+            "id": 6338287,
+            "first_name": "Divesh",
+            "last_name": "borse",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue9-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue9-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue9-200px.png"
+            },
+            "custom_picture": false,
+            "email": "divesh1191@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "379.67"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [
+         {
+            "to": 47805985,
+            "from": 37000083,
+            "amount": "7958.53",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 62859116,
+            "amount": "230.0",
+            "currency_code": "INR"
+         },
+         {
+            "to": 47805985,
+            "from": 62859116,
+            "amount": "1445.28",
+            "currency_code": "INR"
+         },
+         {
+            "to": 12024649,
+            "from": 50723826,
+            "amount": "211.17",
+            "currency_code": "INR"
+         },
+         {
+            "to": 12024649,
+            "from": 47805985,
+            "amount": "3181.45",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 37000083,
+            "amount": "666.66",
+            "currency_code": "INR"
+         },
+         {
+            "to": 47805985,
+            "from": 49939702,
+            "amount": "1237.25",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50723826,
+            "from": 49939702,
+            "amount": "720.66",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50723826,
+            "from": 6338287,
+            "amount": "120.33",
+            "currency_code": "INR"
+         },
+         {
+            "to": 6338287,
+            "from": 49939702,
+            "amount": "500.0",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 37000083,
+            "to": 6338287,
+            "amount": "379.67",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 12024649,
+            "amount": "3392.62",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 47805985,
+            "amount": "4622.9",
+            "currency_code": "INR"
+         },
+         {
+            "from": 49939702,
+            "to": 47805985,
+            "amount": "1791.25",
+            "currency_code": "INR"
+         },
+         {
+            "from": 62859116,
+            "to": 47805985,
+            "amount": "1045.46",
+            "currency_code": "INR"
+         },
+         {
+            "from": 62859116,
+            "to": 50723826,
+            "amount": "629.82",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": "other",
+      "invite_link": "https://www.splitwise.com/join/FLmGUpQbd16+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal7-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal7-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal7-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal7-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal7-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-teal7-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-teal7-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-teal-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-teal-500px.png"
+      }
+   },
+   {
+      "id": 44193714,
+      "name": "Feb 23",
+      "created_at": "2023-02-18T13:51:40Z",
+      "updated_at": "2024-04-11T21:20:12Z",
+      "members": [
+         {
+            "id": 51579520,
+            "first_name": "Akshat",
+            "last_name": "Anand",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/small_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/medium_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/large_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg"
+            },
+            "custom_picture": true,
+            "email": "akshatanand99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "896.13"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 46522483,
+            "first_name": "Rohah",
+            "last_name": "Rnc",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue4-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue4-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue4-200px.png"
+            },
+            "custom_picture": false,
+            "email": "rohan.anilbibha@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 49939702,
+            "first_name": "as8299816113@paytm",
+            "last_name": "Ashu",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aspkingas@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "644.69"
+               }
+            ]
+         },
+         {
+            "id": 64978965,
+            "first_name": "Subham",
+            "last_name": "Anand",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby9-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby9-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby9-200px.png"
+            },
+            "custom_picture": false,
+            "email": "subhamdgms@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 50723826,
+            "first_name": "Surya",
+            "last_name": "PG",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-200px.png"
+            },
+            "custom_picture": false,
+            "email": "suryapspk049@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-1540.82"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 51579520,
+            "from": 46522483,
+            "amount": "2882.43",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 37000083,
+            "amount": "419.94",
+            "currency_code": "INR"
+         },
+         {
+            "to": 46522483,
+            "from": 37000083,
+            "amount": "599.56",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 37000083,
+            "amount": "367.83",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 64978965,
+            "amount": "940.67",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 50723826,
+            "amount": "446.66",
+            "currency_code": "INR"
+         },
+         {
+            "to": 46522483,
+            "from": 49939702,
+            "amount": "1449.54",
+            "currency_code": "INR"
+         },
+         {
+            "to": 46522483,
+            "from": 50723826,
+            "amount": "416.66",
+            "currency_code": "INR"
+         },
+         {
+            "to": 46522483,
+            "from": 64978965,
+            "amount": "416.67",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 49939702,
+            "amount": "259.6",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 64978965,
+            "amount": "1308.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 50723826,
+            "amount": "677.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 64978965,
+            "from": 51579520,
+            "amount": "2665.84",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 50723826,
+            "to": 49939702,
+            "amount": "644.69",
+            "currency_code": "INR"
+         },
+         {
+            "from": 50723826,
+            "to": 51579520,
+            "amount": "896.13",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/D7prurhUxis+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange38-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange38-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-500px.png"
+      }
+   },
+   {
+      "id": 46744015,
+      "name": "Bali ",
+      "created_at": "2023-04-19T13:30:52Z",
+      "updated_at": "2023-10-10T07:25:35Z",
+      "members": [
+         {
+            "id": 50857128,
+            "first_name": "Mehak",
+            "last_name": "Aggarwal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-200px.png"
+            },
+            "custom_picture": false,
+            "email": "mehakagg149@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 9464337,
+            "first_name": "Kratika",
+            "last_name": "Katiyar",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby42-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby42-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby42-200px.png"
+            },
+            "custom_picture": false,
+            "email": "kratikatiyar2@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 14577709,
+            "first_name": "Kanak",
+            "last_name": "Jain",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/14577709/small_2a64d0a4-5759-461f-a4c3-10ea8e4a98f3.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/14577709/medium_2a64d0a4-5759-461f-a4c3-10ea8e4a98f3.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/14577709/large_2a64d0a4-5759-461f-a4c3-10ea8e4a98f3.jpeg"
+            },
+            "custom_picture": true,
+            "email": "kanakankitjain@gmail.com",
+            "registration_status": "unsubscribed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 17158221,
+            "first_name": "AAYUSHI",
+            "last_name": "ANAND",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aayushianand95@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 18198132,
+            "first_name": "Chaitanya",
+            "last_name": "Nagpal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-200px.png"
+            },
+            "custom_picture": false,
+            "email": "chaitanya211196@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 50859918,
+            "first_name": "Rohit",
+            "last_name": "Babhulkar",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/small_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/medium_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/large_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg"
+            },
+            "custom_picture": true,
+            "email": "rohitvb747@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 17158221,
+            "from": 9464337,
+            "amount": "19037.57",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50857128,
+            "from": 9464337,
+            "amount": "7088.72",
+            "currency_code": "INR"
+         },
+         {
+            "to": 9464337,
+            "from": 14577709,
+            "amount": "5808.15",
+            "currency_code": "INR"
+         },
+         {
+            "to": 9464337,
+            "from": 18198132,
+            "amount": "6772.71",
+            "currency_code": "INR"
+         },
+         {
+            "to": 9464337,
+            "from": 37000083,
+            "amount": "6772.71",
+            "currency_code": "INR"
+         },
+         {
+            "to": 9464337,
+            "from": 50859918,
+            "amount": "6772.72",
+            "currency_code": "INR"
+         },
+         {
+            "to": 14577709,
+            "from": 17158221,
+            "amount": "19669.58",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50857128,
+            "from": 14577709,
+            "amount": "13861.43",
+            "currency_code": "INR"
+         },
+         {
+            "to": 18198132,
+            "from": 17158221,
+            "amount": "20634.14",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 37000083,
+            "amount": "9317.3",
+            "currency_code": "INR"
+         },
+         {
+            "to": 17158221,
+            "from": 50857128,
+            "amount": "11948.85",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50857128,
+            "from": 18198132,
+            "amount": "13861.43",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 50857128,
+            "amount": "16090.01",
+            "currency_code": "INR"
+         },
+         {
+            "to": 50859918,
+            "from": 50857128,
+            "amount": "6772.72",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": "trip",
+      "invite_link": "https://www.splitwise.com/join/iWFt7wxnLbn+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue25-trip-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue25-trip-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-500px.png"
+      }
+   },
+   {
+      "id": 48338326,
+      "name": "Coorg",
+      "created_at": "2023-05-24T13:08:18Z",
+      "updated_at": "2024-09-10T15:22:22Z",
+      "members": [
+         {
+            "id": 49939702,
+            "first_name": "as8299816113@paytm",
+            "last_name": "Ashu",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange41-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aspkingas@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 44911216,
+            "first_name": "Ankita",
+            "last_name": "Singh",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal38-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal38-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal38-200px.png"
+            },
+            "custom_picture": false,
+            "email": "ankitas2899@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 51579520,
+            "first_name": "Akshat",
+            "last_name": "Anand",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/small_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/medium_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/51579520/large_fcc8eec3-7516-4978-b401-95dc2f0bb7f4.jpeg"
+            },
+            "custom_picture": true,
+            "email": "akshatanand99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "to": 51579520,
+            "from": 37000083,
+            "amount": "3116.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 49939702,
+            "amount": "854.25",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 44911216,
+            "amount": "2262.25",
+            "currency_code": "INR"
+         },
+         {
+            "to": 44911216,
+            "from": 51579520,
+            "amount": "5113.91",
+            "currency_code": "INR"
+         },
+         {
+            "to": 49939702,
+            "from": 44911216,
+            "amount": "2851.66",
+            "currency_code": "INR"
+         },
+         {
+            "to": 51579520,
+            "from": 49939702,
+            "amount": "1997.41",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": "trip",
+      "invite_link": "https://www.splitwise.com/join/muQVKaoGpPZ+m11g3",
+      "group_reminders": {
+         "date_range": {
+            "enabled": true,
+            "start": "2023-06-01",
+            "end": "2023-06-05"
+         }
+      },
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange2-trip-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange2-trip-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange2-trip-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange2-trip-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-orange2-trip-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange2-trip-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange2-trip-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-500px.png"
+      }
+   },
+   {
+      "id": 50822299,
+      "name": "Bali 2023",
+      "created_at": "2023-07-11T18:09:56Z",
+      "updated_at": "2024-11-04T13:19:17Z",
+      "members": [
+         {
+            "id": 50857128,
+            "first_name": "Mehak",
+            "last_name": "Aggarwal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal27-200px.png"
+            },
+            "custom_picture": false,
+            "email": "mehakagg149@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-5078.02"
+               }
+            ]
+         },
+         {
+            "id": 9464337,
+            "first_name": "Kratika",
+            "last_name": "Katiyar",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby42-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby42-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby42-200px.png"
+            },
+            "custom_picture": false,
+            "email": "kratikatiyar2@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 14577709,
+            "first_name": "Kanak",
+            "last_name": "Jain",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/14577709/small_2a64d0a4-5759-461f-a4c3-10ea8e4a98f3.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/14577709/medium_2a64d0a4-5759-461f-a4c3-10ea8e4a98f3.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/14577709/large_2a64d0a4-5759-461f-a4c3-10ea8e4a98f3.jpeg"
+            },
+            "custom_picture": true,
+            "email": "kanakankitjain@gmail.com",
+            "registration_status": "unsubscribed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 17158221,
+            "first_name": "AAYUSHI",
+            "last_name": "ANAND",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aayushianand95@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 18198132,
+            "first_name": "Chaitanya",
+            "last_name": "Nagpal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal15-200px.png"
+            },
+            "custom_picture": false,
+            "email": "chaitanya211196@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "6182.38"
+               }
+            ]
+         },
+         {
+            "id": 20840506,
+            "first_name": "Shubham",
+            "last_name": "Gupta",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/20840506/small_1e7795c0-3cdd-4996-9195-01dbba8bb226.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/20840506/medium_1e7795c0-3cdd-4996-9195-01dbba8bb226.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/20840506/large_1e7795c0-3cdd-4996-9195-01dbba8bb226.jpeg"
+            },
+            "custom_picture": true,
+            "email": "npti.shubham26@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-587.13"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "0.0"
+               }
+            ]
+         },
+         {
+            "id": 50859918,
+            "first_name": "Rohit",
+            "last_name": "Babhulkar",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/small_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/medium_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/50859918/large_30c3d4a4-1065-401c-b1ba-9f66d654ff19.jpeg"
+            },
+            "custom_picture": true,
+            "email": "rohitvb747@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-378.34"
+               }
+            ]
+         },
+         {
+            "id": 40602567,
+            "first_name": "Nikita",
+            "last_name": "Agrawal",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue20-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue20-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue20-200px.png"
+            },
+            "custom_picture": false,
+            "email": "niksjain136@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-138.89"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": true,
+      "original_debts": [
+         {
+            "currency_code": "INR",
+            "from": 9464337,
+            "to": 50857128,
+            "amount": "10388.51"
+         },
+         {
+            "currency_code": "INR",
+            "from": 14577709,
+            "to": 50857128,
+            "amount": "4802.22"
+         },
+         {
+            "currency_code": "INR",
+            "from": 17158221,
+            "to": 50857128,
+            "amount": "11195.06"
+         },
+         {
+            "currency_code": "INR",
+            "from": 18198132,
+            "to": 50857128,
+            "amount": "6237.9"
+         },
+         {
+            "from": 50857128,
+            "to": 20840506,
+            "amount": "7620.87",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 50857128,
+            "amount": "9221.75"
+         },
+         {
+            "currency_code": "INR",
+            "from": 50857128,
+            "to": 50859918,
+            "amount": "28418.2"
+         },
+         {
+            "currency_code": "INR",
+            "from": 9464337,
+            "to": 20840506,
+            "amount": "23255.35"
+         },
+         {
+            "from": 18198132,
+            "to": 9464337,
+            "amount": "21452.89",
+            "currency_code": "INR"
+         },
+         {
+            "from": 14577709,
+            "to": 9464337,
+            "amount": "12845.63",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 14577709,
+            "to": 20840506,
+            "amount": "6558.39"
+         },
+         {
+            "currency_code": "INR",
+            "from": 14577709,
+            "to": 18198132,
+            "amount": "18913.36"
+         },
+         {
+            "from": 50859918,
+            "to": 14577709,
+            "amount": "13602.24",
+            "currency_code": "INR"
+         },
+         {
+            "from": 17158221,
+            "to": 14577709,
+            "amount": "9537.39",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 14577709,
+            "amount": "9346.75",
+            "currency_code": "INR"
+         },
+         {
+            "from": 40602567,
+            "to": 14577709,
+            "amount": "10633.22",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 17158221,
+            "to": 20840506,
+            "amount": "17119.72"
+         },
+         {
+            "from": 18198132,
+            "to": 17158221,
+            "amount": "38448.01",
+            "currency_code": "INR"
+         },
+         {
+            "from": 20840506,
+            "to": 18198132,
+            "amount": "29616.18",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 18198132,
+            "amount": "7240.23",
+            "currency_code": "INR"
+         },
+         {
+            "from": 50859918,
+            "to": 18198132,
+            "amount": "2433.62",
+            "currency_code": "INR"
+         },
+         {
+            "from": 40602567,
+            "to": 18198132,
+            "amount": "14117.79",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 20840506,
+            "to": 37000083,
+            "amount": "26578.68"
+         },
+         {
+            "currency_code": "INR",
+            "from": 20840506,
+            "to": 40602567,
+            "amount": "14111.56"
+         },
+         {
+            "from": 50859918,
+            "to": 20840506,
+            "amount": "15164.96",
+            "currency_code": "INR"
+         },
+         {
+            "from": 50857128,
+            "to": 40602567,
+            "amount": "10884.39",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 9464337,
+            "to": 37000083,
+            "amount": "241.67"
+         },
+         {
+            "currency_code": "INR",
+            "from": 9464337,
+            "to": 50859918,
+            "amount": "319.66"
+         },
+         {
+            "currency_code": "INR",
+            "from": 9464337,
+            "to": 17158221,
+            "amount": "278.66"
+         },
+         {
+            "from": 40602567,
+            "to": 9464337,
+            "amount": "185.33",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 40602567,
+            "to": 50859918,
+            "amount": "304.0"
+         },
+         {
+            "currency_code": "INR",
+            "from": 17158221,
+            "to": 37000083,
+            "amount": "69.5"
+         },
+         {
+            "currency_code": "INR",
+            "from": 17158221,
+            "to": 50859918,
+            "amount": "805.0"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 40602567,
+            "amount": "105.5"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 50859918,
+            "amount": "975.62"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 20840506,
+            "to": 18198132,
+            "amount": "587.13",
+            "currency_code": "INR"
+         },
+         {
+            "from": 40602567,
+            "to": 18198132,
+            "amount": "138.89",
+            "currency_code": "INR"
+         },
+         {
+            "from": 50857128,
+            "to": 18198132,
+            "amount": "5078.02",
+            "currency_code": "INR"
+         },
+         {
+            "from": 50859918,
+            "to": 18198132,
+            "amount": "378.34",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": "trip",
+      "invite_link": "https://www.splitwise.com/join/pXqxpr2SbPX+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue25-trip-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue25-trip-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue25-trip-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-500px.png"
+      }
+   },
+   {
+      "id": 59530268,
+      "name": "Manali 2.0",
+      "created_at": "2024-01-02T12:43:39Z",
+      "updated_at": "2024-05-09T09:55:32Z",
+      "members": [
+         {
+            "id": 36997580,
+            "first_name": "Alisha",
+            "last_name": "Pandey",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/36997580/small_faf53a5c-7343-487b-9e9e-c14aa50bad50.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/36997580/medium_faf53a5c-7343-487b-9e9e-c14aa50bad50.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/36997580/large_faf53a5c-7343-487b-9e9e-c14aa50bad50.jpeg"
+            },
+            "custom_picture": true,
+            "email": "alishapandey@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 30017071,
+            "first_name": "Shantanu",
+            "last_name": "Pandey",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue5-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue5-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue5-200px.png"
+            },
+            "custom_picture": false,
+            "email": "shantanu.pandey94@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 81312830,
+            "first_name": "Jasmine",
+            "last_name": "Ahluwalia",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange11-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange11-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange11-200px.png"
+            },
+            "custom_picture": false,
+            "email": "jasmineah27@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-480.67"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "256.39"
+               }
+            ]
+         },
+         {
+            "id": 36997485,
+            "first_name": "Deepna",
+            "last_name": "Pandey",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby26-200px.png"
+            },
+            "custom_picture": false,
+            "email": "deepnapandey6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-105.93"
+               }
+            ]
+         },
+         {
+            "id": 53197888,
+            "first_name": "Nimisha",
+            "last_name": "Mishra",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal46-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal46-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-teal46-200px.png"
+            },
+            "custom_picture": false,
+            "email": "nimisha.mi296@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-1119.25"
+               }
+            ]
+         },
+         {
+            "id": 61045135,
+            "first_name": "Naimish",
+            "last_name": "Bhaiya",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue32-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue32-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue32-200px.png"
+            },
+            "custom_picture": false,
+            "email": "naimish.trivedi09@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "4610.97"
+               }
+            ]
+         },
+         {
+            "id": 81618005,
+            "first_name": "Aryanshi",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby15-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby15-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby15-200px.png"
+            },
+            "custom_picture": false,
+            "email": "aryanshi17@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-2983.38"
+               }
+            ]
+         },
+         {
+            "id": 27725966,
+            "first_name": "Eshana",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange9-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange9-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange9-200px.png"
+            },
+            "custom_picture": false,
+            "email": "eshanamohan@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 60804795,
+            "first_name": "Divyansh",
+            "last_name": "Kumar",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue3-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue3-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue3-200px.png"
+            },
+            "custom_picture": false,
+            "email": "dixitdivyansh2003@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "488.54"
+               }
+            ]
+         },
+         {
+            "id": 81339957,
+            "first_name": "Arushi",
+            "last_name": null,
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby19-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby19-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby19-200px.png"
+            },
+            "custom_picture": false,
+            "email": "pandeyarushi21@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-666.67"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [
+         {
+            "to": 60804795,
+            "from": 36997485,
+            "amount": "323.33",
+            "currency_code": "INR"
+         },
+         {
+            "to": 36997485,
+            "from": 81618005,
+            "amount": "90.13",
+            "currency_code": "INR"
+         },
+         {
+            "to": 60804795,
+            "from": 37000083,
+            "amount": "570.99",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 81618005,
+            "amount": "251.03",
+            "currency_code": "INR"
+         },
+         {
+            "to": 60804795,
+            "from": 53197888,
+            "amount": "666.66",
+            "currency_code": "INR"
+         },
+         {
+            "to": 81618005,
+            "from": 53197888,
+            "amount": "37.14",
+            "currency_code": "INR"
+         },
+         {
+            "to": 61045135,
+            "from": 60804795,
+            "amount": "1894.47",
+            "currency_code": "INR"
+         },
+         {
+            "to": 60804795,
+            "from": 81339957,
+            "amount": "666.67",
+            "currency_code": "INR"
+         },
+         {
+            "to": 60804795,
+            "from": 81312830,
+            "amount": "192.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 81618005,
+            "from": 60804795,
+            "amount": "37.14",
+            "currency_code": "INR"
+         },
+         {
+            "to": 61045135,
+            "from": 81618005,
+            "amount": "2716.5",
+            "currency_code": "INR"
+         },
+         {
+            "to": 36997485,
+            "from": 53197888,
+            "amount": "127.27",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 53197888,
+            "amount": "288.18",
+            "currency_code": "INR"
+         },
+         {
+            "to": 37000083,
+            "from": 81312830,
+            "amount": "288.17",
+            "currency_code": "INR"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 36997485,
+            "to": 37000083,
+            "amount": "105.93",
+            "currency_code": "INR"
+         },
+         {
+            "from": 53197888,
+            "to": 37000083,
+            "amount": "150.46",
+            "currency_code": "INR"
+         },
+         {
+            "from": 53197888,
+            "to": 60804795,
+            "amount": "488.54",
+            "currency_code": "INR"
+         },
+         {
+            "from": 53197888,
+            "to": 61045135,
+            "amount": "480.25",
+            "currency_code": "INR"
+         },
+         {
+            "from": 81312830,
+            "to": 61045135,
+            "amount": "480.67",
+            "currency_code": "INR"
+         },
+         {
+            "from": 81339957,
+            "to": 61045135,
+            "amount": "666.67",
+            "currency_code": "INR"
+         },
+         {
+            "from": 81618005,
+            "to": 61045135,
+            "amount": "2983.38",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/1kSRs7Qwx6G+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal22-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal22-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal22-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal22-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-teal22-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-teal22-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-teal22-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-teal-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-teal-500px.png"
+      }
+   },
+   {
+      "id": 61041898,
+      "name": "Block 3 , 803",
+      "created_at": "2024-02-06T18:36:31Z",
+      "updated_at": "2024-11-08T08:54:51Z",
+      "members": [
+         {
+            "id": 47805985,
+            "first_name": "sandesh",
+            "last_name": "rai",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-ruby30-200px.png"
+            },
+            "custom_picture": false,
+            "email": "sandesh.rai99@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "6114.39"
+               }
+            ]
+         },
+         {
+            "id": 6338287,
+            "first_name": "Divesh",
+            "last_name": "borse",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue9-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue9-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue9-200px.png"
+            },
+            "custom_picture": false,
+            "email": "divesh1191@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-771.16"
+               }
+            ]
+         },
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-331.95"
+               }
+            ]
+         },
+         {
+            "id": 50723826,
+            "first_name": "Surya",
+            "last_name": "PG",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-200px.png"
+            },
+            "custom_picture": false,
+            "email": "suryapspk049@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "1176.72"
+               }
+            ]
+         },
+         {
+            "id": 28247105,
+            "first_name": "Nitesh",
+            "last_name": "Chaudhry",
+            "picture": {
+               "small": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/28247105/small_38e0d4ab-a630-4e4f-b623-15d586e60874.jpeg",
+               "medium": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/28247105/medium_38e0d4ab-a630-4e4f-b623-15d586e60874.jpeg",
+               "large": "https://splitwise.s3.amazonaws.com/uploads/user/avatar/28247105/large_38e0d4ab-a630-4e4f-b623-15d586e60874.jpeg"
+            },
+            "custom_picture": true,
+            "email": "niteshbinladen@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-5438.0"
+               }
+            ]
+         },
+         {
+            "id": 2385110,
+            "first_name": "Shiladitya",
+            "last_name": "Saha",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange2-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange2-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange2-200px.png"
+            },
+            "custom_picture": false,
+            "email": "addiesaha@gmail.com",
+            "registration_status": "confirmed",
+            "balance": [
+               {
+                  "currency_code": "INR",
+                  "amount": "-750.0"
+               }
+            ]
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 47805985,
+            "amount": "893.05"
+         },
+         {
+            "from": 50723826,
+            "to": 47805985,
+            "amount": "133.34",
+            "currency_code": "INR"
+         },
+         {
+            "currency_code": "INR",
+            "from": 6338287,
+            "to": 50723826,
+            "amount": "92.16"
+         },
+         {
+            "currency_code": "INR",
+            "from": 6338287,
+            "to": 37000083,
+            "amount": "679.0"
+         },
+         {
+            "currency_code": "INR",
+            "from": 37000083,
+            "to": 50723826,
+            "amount": "1217.9"
+         },
+         {
+            "currency_code": "INR",
+            "from": 28247105,
+            "to": 37000083,
+            "amount": "1100.0"
+         },
+         {
+            "currency_code": "INR",
+            "from": 2385110,
+            "to": 47805985,
+            "amount": "750.0"
+         },
+         {
+            "currency_code": "INR",
+            "from": 28247105,
+            "to": 47805985,
+            "amount": "4338.0"
+         }
+      ],
+      "simplified_debts": [
+         {
+            "from": 2385110,
+            "to": 47805985,
+            "amount": "750.0",
+            "currency_code": "INR"
+         },
+         {
+            "from": 6338287,
+            "to": 47805985,
+            "amount": "771.16",
+            "currency_code": "INR"
+         },
+         {
+            "from": 28247105,
+            "to": 47805985,
+            "amount": "4593.23",
+            "currency_code": "INR"
+         },
+         {
+            "from": 28247105,
+            "to": 50723826,
+            "amount": "844.77",
+            "currency_code": "INR"
+         },
+         {
+            "from": 37000083,
+            "to": 50723826,
+            "amount": "331.95",
+            "currency_code": "INR"
+         }
+      ],
+      "whiteboard": null,
+      "group_type": "home",
+      "invite_link": "https://www.splitwise.com/join/yYP45rA7rVc+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-house-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-house-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-house-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-house-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-orange38-house-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange38-house-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-orange38-house-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-orange-500px.png"
+      }
+   },
+   {
+      "id": 63714419,
+      "name": "Goa 2024",
+      "created_at": "2024-04-09T16:34:25Z",
+      "updated_at": "2024-05-09T10:05:45Z",
+      "members": [
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 22799839,
+            "first_name": "Radhika",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue46-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue46-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue46-200px.png"
+            },
+            "custom_picture": false,
+            "email": "radhika.agnihotri1@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": null,
+      "invite_link": "https://www.splitwise.com/join/CrSSb9JLqhG+m11g3",
+      "group_reminders": null,
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue45-other-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue45-other-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue45-other-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue45-other-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/avatar-blue45-other-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue45-other-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue45-other-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-500px.png"
+      }
+   },
+   {
+      "id": 64164875,
+      "name": "Vihangians In Goa",
+      "created_at": "2024-04-21T06:02:54Z",
+      "updated_at": "2024-06-27T03:40:19Z",
+      "members": [
+         {
+            "id": 37000083,
+            "first_name": "Pranjal",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue39-200px.png"
+            },
+            "custom_picture": false,
+            "email": "beingpranjal6@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 22799839,
+            "first_name": "Radhika",
+            "last_name": "Agnihotri",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue46-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue46-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue46-200px.png"
+            },
+            "custom_picture": false,
+            "email": "radhika.agnihotri1@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 50723826,
+            "first_name": "Surya",
+            "last_name": "PG",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-orange17-200px.png"
+            },
+            "custom_picture": false,
+            "email": "suryapspk049@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         },
+         {
+            "id": 69545695,
+            "first_name": "Hima",
+            "last_name": "Sri @kkd",
+            "picture": {
+               "small": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue31-50px.png",
+               "medium": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue31-100px.png",
+               "large": "https://s3.amazonaws.com/splitwise/uploads/user/default_avatars/avatar-blue31-200px.png"
+            },
+            "custom_picture": false,
+            "email": "himasrisakhumalla@gmail.com",
+            "registration_status": "confirmed",
+            "balance": []
+         }
+      ],
+      "simplify_by_default": false,
+      "original_debts": [],
+      "simplified_debts": [],
+      "whiteboard": null,
+      "group_type": "trip",
+      "invite_link": "https://www.splitwise.com/join/yri2McQFG6f+m11g3",
+      "group_reminders": {
+         "date_range": {
+            "enabled": true,
+            "start": "2024-04-21",
+            "end": "2024-04-23"
+         }
+      },
+      "avatar": {
+         "small": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue6-trip-50px.png",
+         "medium": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue6-trip-100px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue6-trip-200px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue6-trip-500px.png",
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_avatars/v2021/avatar-blue6-trip-1000px.png",
+         "original": null
+      },
+      "tall_avatar": {
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue6-trip-288px.png",
+         "large": "https://s3.amazonaws.com/splitwise/uploads/group/default_tall_avatars/avatar-blue6-trip-192px.png"
+      },
+      "custom_avatar": false,
+      "cover_photo": {
+         "xxlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-1000px.png",
+         "xlarge": "https://s3.amazonaws.com/splitwise/uploads/group/default_cover_photos/coverphoto-blue-500px.png"
+      }
+   }
+]
