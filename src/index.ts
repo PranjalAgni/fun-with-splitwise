@@ -1,11 +1,12 @@
-import { SplitwiseService } from "./services/splitwise";
-import { ExpenseService } from "./services/expense";
+import { initalizeServer } from "./app";
+import env from "./config/env";
 
 async function main() {
-  const sw = new SplitwiseService();
-  await sw.updateGroupExpenses();
-  const expenseService = new ExpenseService();
-  await expenseService.calculateMonthlySpendings();
+  const app = await initalizeServer();
+
+  app.listen(env.PORT, () => {
+    console.log(`Server is running on http://localhost:${env.PORT}`);
+  });
 }
 
 main();

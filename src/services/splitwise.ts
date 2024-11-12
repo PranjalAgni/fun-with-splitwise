@@ -27,6 +27,10 @@ export class SplitwiseService {
       limit,
     });
 
+    if (!data) {
+      throw new Error("Unable to fetch expenses");
+    }
+
     await this.writeExpenses(FLAT_SPLITWISE_GROUP_EXPENSES, data);
   }
 

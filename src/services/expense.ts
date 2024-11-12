@@ -92,6 +92,51 @@ export class ExpenseService {
       monthlyExpense[month] = parseAmount(monthlyExpense[month].toFixed(2));
     }
 
-    console.table(monthlyExpense);
+    return monthlyExpense;
+  }
+
+  public async getMonthlyDescriptions() {
+    const expenses = await this.readAndParseExpenses();
+    const expenseDescriptions: {
+      [key: string]: Array<{ title: string; cost: number }>;
+    } = {};
+
+    for (const expense of expenses) {
+      if (
+        expense.creation_method === "payment" ||
+        expense.creation_method === "debt_consolidation"
+      ) {
+        continue;
+      }
+
+      const month = getMonthNameFromDate(expense.created_at);
+      if (!expenseDescriptions[month]) {
+        expenseDescriptions[month] = [];
+      }
+
+      const isCreatedByMe = expense.created_by.id === this.userId;
+
+      if (isCreatedByMe) {
+        const totalRepayment = expense.repayments.reduce((acc, current) => {
+          return acc + parseAmount(current.amount);
+        }, 0);
+
+        const userShare = parseAmount(expense.cost) - totalRepayment;
+        expenseDescriptions[month].push({
+          title: expense.description,
+          cost: userShare,
+        });
+      } else {
+        const repaymentInfo = expense.repayments.find(
+          (info) => info.from === this.userId
+        );
+        expenseDescriptions[month].push({
+          title: expense.description,
+          cost: parseAmount(repaymentInfo?.amount!),
+        });
+      }
+    }
+
+    return expenseDescriptions;
   }
 }
