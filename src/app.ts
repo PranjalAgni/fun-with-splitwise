@@ -1,7 +1,8 @@
 import express from "express";
 import cors from "cors";
-import expenseRouter from "./router/expenseRouter";
 import { SplitwiseService } from "./services/splitwise";
+import expenseRouter from "./router/expenseRouter";
+import splitwiseRouter from "./router/splitwiseRouter";
 
 export const initalizeServer = async () => {
   const sw = new SplitwiseService();
@@ -11,5 +12,6 @@ export const initalizeServer = async () => {
   app.use(cors());
 
   app.use("/api/v1/expenses", expenseRouter);
+  app.use("/api/v1/splitwise", splitwiseRouter);
   return app;
 };
