@@ -1,0 +1,16 @@
+services:
+  # A Node.js web service
+  - type: web
+    name: splitwise
+    env: node
+    repo: https://github.com/PranjalAgni/fun-with-splitwise.git
+    region: singapore
+    branch: master
+    buildCommand: npm install
+    startCommand: npm dev
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: ~20.17.0
+      - key: NODE_ENV
+        value: production
