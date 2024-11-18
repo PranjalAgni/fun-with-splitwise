@@ -11,9 +11,9 @@ export class ExpenseService {
   private userId: number;
   private dataDir: string;
 
-  constructor() {
-    this.groupId = env.GROUP_ID;
-    this.userId = env.USER_ID;
+  constructor(groupId: number = env.GROUP_ID, userId: number = env.USER_ID) {
+    this.groupId = groupId;
+    this.userId = userId;
     this.dataDir = path.join(__dirname, "../", "../", "data");
   }
 
