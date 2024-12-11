@@ -1,0 +1,32 @@
+> splitwise@1.0.0 playground
+> ts-node src/playground/chatgpt.ts
+
+Response Headers:
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+cf-chl-out: lfEbA1gknGyefeZe9yywp/1Oh2Dli0Ji+rFe1BAV9qmYSlTk0JxjJmrBurnemNCr/cFjTmpTT3RypdVn0kdZZcfrDmQMF1MnlfM1gLPM62wKirxeUs6Stzc+1bOwtm6LpQk9t2YlU0abbP19NwTStA==$a5KvtC52BASUCaffN/kxig==
+cf-mitigated: challenge
+cf-ray: 8f07ae1109577ff5-MAA
+connection: close
+content-encoding: br
+content-type: text/html; charset=UTF-8
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cross-origin-embedder-policy: require-corp
+cross-origin-opener-policy: same-origin-allow-popups
+cross-origin-resource-policy: same-origin
+date: Wed, 11 Dec 2024 18:53:52 GMT
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+origin-agent-cluster: ?1
+permissions-policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+referrer-policy: strict-origin-when-cross-origin
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Rb0kUAR1nCetsNIfi0%2Fd7W7ioKpHZNJDlOsZO1IANHNAXU1cHM2WP71i%2BaP4I6K4C%2BOEQeE3sj7j0aqXPu9%2FTGzBRpu%2BtjiCwG75oFcBfkbVl7JzQO14C8cGxdls"}],"group":"cf-nel","max_age":604800}
+server: cloudflare
+set-cookie: __cf_bm=ZHLFwytMYuWSt2fdkPAEuByI1dF2jvbxK7C6h9WX1.8-1733943232-1.0.1.1-g_M2lVUGk2H.bvEuTn6xKJtzxcUWNZlm9EYNs6LV_RWEu7.BDIbUgJzTa9x4Dz.8RoQy0GhC.ZjOdLNeKBlsoQ; path=/; expires=Wed, 11-Dec-24 19:23:52 GMT; domain=.chatgpt.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+transfer-encoding: chunked
+vary: Accept-Encoding
+x-content-options: nosniff
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-robots-tag: nofollow

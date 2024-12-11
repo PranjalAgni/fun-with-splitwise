@@ -8,7 +8,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
-    "start": "node --env-file=.env dist/index.js"
+    "start": "node --env-file=.env dist/index.js",
+    "playground": "ts-node src/playground/chatgpt.ts"
   },
   "keywords": [],
   "author": "",
