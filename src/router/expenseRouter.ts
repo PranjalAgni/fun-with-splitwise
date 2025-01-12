@@ -1,10 +1,12 @@
 import { Router, Request, Response } from "express";
 import { ExpenseService } from "../services/expense";
 import { FLAT_GROUP_ID, NIT_USER_ID, SANDY_USER_ID } from "../config/constants";
+import { ClaudeService } from "../services/claude";
 
 const expenseRouter = Router();
 
 const expenseService = new ExpenseService();
+const claudeService = new ClaudeService();
 
 expenseRouter.get("/monthly-spendings", async (req: Request, res: Response) => {
   const data = await expenseService.calculateMonthlySpendings();
@@ -48,5 +50,9 @@ expenseRouter.get(
     res.status(200).json(data);
   }
 );
+
+expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
+  res.status(200).json({ message: "Categorizer service is not implemented" });
+});
 
 export default expenseRouter;
