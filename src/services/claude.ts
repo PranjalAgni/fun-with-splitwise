@@ -6,7 +6,7 @@ export class ClaudeService {
   private headers: Record<string, string>;
   private query: string;
   constructor() {
-    this.baseURL = `https://claude.ai/api/organizations/${env.CLAUDE_ORG_ID}/chat_conversations/${env.CLAUDE_CONV_ID}`;
+    this.baseURL = `https://claude.ai/api/organizations/${env.CLAUDE_ORG_ID}/chat_conversations/${env.CLAUDE_CONV_ID}/completion`;
     this.headers = this.buildHeaders();
     this.query = "";
   }
@@ -34,10 +34,9 @@ export class ClaudeService {
   }
 
   private buildPayload() {
-    console.log("q: ", this.query);
     return {
       prompt: this.query,
-      parent_message_uuid: "80cb8d4e-2b20-4e81-bdb2-d2c63a8a07ef",
+      parent_message_uuid: env.CLAUDE_PARENT_MESSAGE_UUID,
       timezone: "Asia/Calcutta",
       personalized_styles: [
         {

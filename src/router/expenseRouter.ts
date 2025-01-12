@@ -52,7 +52,18 @@ expenseRouter.get(
 );
 
 expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
-  res.status(200).json({ message: "Categorizer service is not implemented" });
+  const expenses = await expenseService.readAndParseExpenses();
+  const allDescriptions = [];
+  for (const expense of expenses) {
+    allDescriptions.push(expense.description);
+    const whatcategory = await claudeService.askClaude(expense.description);
+    console.log(whatcategory);
+  }
+
+  res.status(200).json({
+    message: "Categorizer service is not implemented",
+    allDescriptions,
+  });
 });
 
 export default expenseRouter;

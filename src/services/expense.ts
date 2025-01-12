@@ -27,7 +27,7 @@ export class ExpenseService {
     return userExpenses;
   }
 
-  private async readAndParseExpenses(): Promise<IExpense[]> {
+  public async readAndParseExpenses(): Promise<IExpense[]> {
     const data = await fs.readFile(
       path.join(this.dataDir, FLAT_SPLITWISE_GROUP_EXPENSES),
       "utf8"
