@@ -3,7 +3,7 @@ import path from "path";
 import { FLAT_SPLITWISE_GROUP_EXPENSES } from "../config/constants";
 import env from "../config/env";
 import { IExpense } from "../interface";
-import { getMonthNameFromDate } from "../utils/date";
+import { getMonthNameFromDate, getYearFromDate } from "../utils/date";
 import { parseAmount } from "../utils/math";
 
 export class ExpenseService {
@@ -110,8 +110,10 @@ export class ExpenseService {
       }
 
       const month = getMonthNameFromDate(expense.created_at);
-      if (!expenseDescriptions[month]) {
-        expenseDescriptions[month] = [];
+      const year = getYearFromDate(expense.created_at);
+      const key = `${month}'${year}`;
+      if (!expenseDescriptions[key]) {
+        expenseDescriptions[key] = [];
       }
 
       const isCreatedByMe = expense.created_by.id === this.userId;
@@ -122,7 +124,7 @@ export class ExpenseService {
         }, 0);
 
         const userShare = parseAmount(expense.cost) - totalRepayment;
-        expenseDescriptions[month].push({
+        expenseDescriptions[key].push({
           title: expense.description,
           cost: userShare,
         });
@@ -130,7 +132,7 @@ export class ExpenseService {
         const repaymentInfo = expense.repayments.find(
           (info) => info.from === this.userId
         );
-        expenseDescriptions[month].push({
+        expenseDescriptions[key].push({
           title: expense.description,
           cost: parseAmount(repaymentInfo?.amount!),
         });
