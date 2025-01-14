@@ -1,3 +1,4 @@
+import { createParser, type EventSourceMessage } from "eventsource-parser";
 import env from "../config/env";
 import { prompt } from "../config/prompt";
 
@@ -56,6 +57,7 @@ export class ClaudeService {
   }
 
   private buildPrompt(expenseDescription: string) {
+    // return "\n" + expenseDescription + "\n";
     return prompt + "\n" + expenseDescription;
   }
   private async doRequest() {
@@ -68,20 +70,33 @@ export class ClaudeService {
     return response;
   }
 
+  private onEvent(event: any) {
+    console.log("Received event!");
+    console.log("id: %s", event.id || "<none>");
+    console.log("name: %s", event.name || "<none>");
+    console.log("data: %s", event.data);
+    console.log("type: %s", event.type);
+  }
+
   public async askClaude(expenseDescription: string) {
     this.query = this.buildPrompt(expenseDescription);
+    console.log("Q: %s", this.query);
     const response = await this.doRequest();
     const stream = response.body;
     let reader = stream?.getReader();
+    const chunks: string[] = [];
+    const parser = createParser({ onEvent: this.onEvent });
     while (true) {
       const { done, value } = await reader?.read()!;
       if (done) {
-        console.log("done.....");
         break;
       } else {
-        const chunkString = new TextDecoder().decode(value);
-        console.log(chunkString);
+        const chunkString = new TextDecoder().decode(value, { stream: true });
+        parser.feed(chunkString);
+        chunks.push(chunkString);
       }
     }
+
+    return 42;
   }
 }

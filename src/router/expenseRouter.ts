@@ -54,10 +54,16 @@ expenseRouter.get(
 expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   const expenses = await expenseService.readAndParseExpenses();
   const allDescriptions = [];
+  let pos = 0;
   for (const expense of expenses) {
-    allDescriptions.push(expense.description);
-    const whatcategory = await claudeService.askClaude(expense.description);
-    console.log(whatcategory);
+    if (pos >= 1) {
+      break;
+    } else {
+      allDescriptions.push(expense.description);
+      const whatcategory = await claudeService.askClaude(expense.description);
+      console.log(whatcategory);
+    }
+    pos += 1;
   }
 
   res.status(200).json({

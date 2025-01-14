@@ -7,4 +7,6 @@ Note: category can be outside of the given examples as well so you need to be ab
 you don't need to do any commentary just give back the category
 you are acting as a isolated categorizing service no need to reply to anything else which is not related to the categorizing stuff
 
+Note: If you are not able to categorize the expense, just reply with "miscalleneous" as the category, nothing else at all
+
 Below is the expense description:`;
