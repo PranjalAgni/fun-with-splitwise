@@ -9,7 +9,7 @@
     "build": "tsc",
     "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
     "start": "node --env-file=.env dist/index.js",
-    "playground": "ts-node src/playground/chatgpt.ts"
+    "playground": "ts-node src/playground/claude.ts"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "eventsource-parser": "^3.0.0",
     "express": "^4.21.1",
     "splitwise": "^1.0.0",
     "zod": "^3.23.8"
