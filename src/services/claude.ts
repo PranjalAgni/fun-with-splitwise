@@ -1,4 +1,3 @@
-import { createParser, type EventSourceMessage } from "eventsource-parser";
 import env from "../config/env";
 import { prompt } from "../config/prompt";
 
@@ -57,8 +56,8 @@ export class ClaudeService {
   }
 
   private buildPrompt(expenseDescription: string) {
-    // return "\n" + expenseDescription + "\n";
-    return prompt + "\n" + expenseDescription;
+    return "\n" + expenseDescription + "\n";
+    // return prompt + "\n" + expenseDescription;
   }
   private async doRequest() {
     const response = await fetch(this.baseURL, {
@@ -70,12 +69,18 @@ export class ClaudeService {
     return response;
   }
 
-  private onEvent(event: any) {
+  private parseEvent(event: string) {
     console.log("Received event!");
-    console.log("id: %s", event.id || "<none>");
-    console.log("name: %s", event.name || "<none>");
-    console.log("data: %s", event.data);
-    console.log("type: %s", event.type);
+    const eventData = JSON.parse(event);
+    console.log(eventData);
+    const type = eventData.type;
+    if (type === "content_block_start") {
+      const text = eventData.content_block.text;
+      const type = eventData.content_block.type;
+    } else if (type === "content_block_delta") {
+    } else if (type === "content_block_stop") {
+      // now no need to process more
+    }
   }
 
   public async askClaude(expenseDescription: string) {
@@ -84,16 +89,15 @@ export class ClaudeService {
     const response = await this.doRequest();
     const stream = response.body;
     let reader = stream?.getReader();
-    const chunks: string[] = [];
-    const parser = createParser({ onEvent: this.onEvent });
+
     while (true) {
       const { done, value } = await reader?.read()!;
       if (done) {
         break;
       } else {
         const chunkString = new TextDecoder().decode(value, { stream: true });
-        parser.feed(chunkString);
-        chunks.push(chunkString);
+        console.log("Now recieved %s\n", chunkString);
+        // this.parseEvent(chunkString);
       }
     }
 
