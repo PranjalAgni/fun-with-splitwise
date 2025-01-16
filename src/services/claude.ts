@@ -70,16 +70,22 @@ export class ClaudeService {
   }
 
   private parseEvent(event: string) {
-    console.log("Received event!");
-    const eventData = JSON.parse(event);
-    console.log(eventData);
-    const type = eventData.type;
+    const [, , data] = event.split("\n");
+    const actualData = data.replace("data: ", "");
+    const response = JSON.parse(actualData);
+    const type = response.type;
+
     if (type === "content_block_start") {
-      const text = eventData.content_block.text;
-      const type = eventData.content_block.type;
+      const text = response.content_block.text;
+      console.log("from content block start");
+      return text;
     } else if (type === "content_block_delta") {
+      const text = response.content_block.text;
+      console.log("from content block delta");
+      return text;
     } else if (type === "content_block_stop") {
       // now no need to process more
+      console.log("DONE!!!\n");
     }
   }
 
@@ -89,18 +95,17 @@ export class ClaudeService {
     const response = await this.doRequest();
     const stream = response.body;
     let reader = stream?.getReader();
-
+    let answer = "";
     while (true) {
       const { done, value } = await reader?.read()!;
       if (done) {
         break;
       } else {
         const chunkString = new TextDecoder().decode(value, { stream: true });
-        console.log("Now recieved %s\n", chunkString);
-        // this.parseEvent(chunkString);
+        answer += this.parseEvent(chunkString);
       }
     }
 
-    return 42;
+    return answer;
   }
 }
