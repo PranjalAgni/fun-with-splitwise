@@ -55,6 +55,7 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   const expenses = await expenseService.readAndParseExpenses();
   const allDescriptions = [];
   let pos = 0;
+  let result = null;
   for (const expense of expenses) {
     if (pos >= 1) {
       break;
@@ -62,6 +63,7 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
       allDescriptions.push(expense.description);
       const whatcategory = await claudeService.askClaude(expense.description);
       console.log(whatcategory);
+      result = whatcategory;
     }
     pos += 1;
   }
@@ -69,6 +71,7 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   res.status(200).json({
     message: "Categorizer service is not implemented",
     allDescriptions,
+    categ: result,
   });
 });
 

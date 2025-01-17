@@ -85,7 +85,7 @@ export class ClaudeService {
       return text;
     } else if (type === "content_block_stop") {
       // now no need to process more
-      console.log("DONE!!!\n");
+      console.log("DONE...");
     }
   }
 
