@@ -68,6 +68,7 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
     pos += 1;
   }
 
+  // todo: need to test the API
   res.status(200).json({
     message: "Categorizer service is not implemented",
     allDescriptions,
