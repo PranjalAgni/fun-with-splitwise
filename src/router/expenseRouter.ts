@@ -3,6 +3,7 @@ import { ExpenseService } from "../services/expense";
 import { FLAT_GROUP_ID, NIT_USER_ID, SANDY_USER_ID } from "../config/constants";
 import { ClaudeService } from "../services/claude";
 
+// initalizing a router to attach endpoints
 const expenseRouter = Router();
 
 const expenseService = new ExpenseService();
