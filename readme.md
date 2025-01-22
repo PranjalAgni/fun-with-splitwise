@@ -4,6 +4,7 @@
   - Node.js + TS
   - Claude
   - Splitwise API
+  - Need to write tests
 
 # Claude response example
 
