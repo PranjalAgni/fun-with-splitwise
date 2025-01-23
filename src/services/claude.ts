@@ -70,18 +70,22 @@ export class ClaudeService {
   }
 
   private parseEvent(event: string) {
-    const [, , data] = event.split("\n");
-    const actualData = data.replace("data: ", "");
-    const response = JSON.parse(actualData);
-    const type = response.type;
+    console.log("event: %s", event);
+    const dataMatch = event.match(/data:\s*(\{.*\})/);
+    if (!dataMatch || dataMatch.length < 2) {
+      throw new Error("Unable to extract data from event string.");
+    }
+
+    const dataString = dataMatch[1].trim();
+    const parsedData = JSON.parse(dataString);
+    console.log("data: %s", dataString);
+    const type = parsedData.type;
 
     if (type === "content_block_start") {
-      const text = response.content_block.text;
-      console.log("from content block start");
+      const text = parsedData.content_block.text;
       return text;
     } else if (type === "content_block_delta") {
-      const text = response.content_block.text;
-      console.log("from content block delta");
+      const text = parsedData.delta.text;
       return text;
     } else if (type === "content_block_stop") {
       // now no need to process more
@@ -91,7 +95,6 @@ export class ClaudeService {
 
   public async askClaude(expenseDescription: string) {
     this.query = this.buildPrompt(expenseDescription);
-    console.log("Q: %s", this.query);
     const response = await this.doRequest();
     const stream = response.body;
     let reader = stream?.getReader();
@@ -102,7 +105,8 @@ export class ClaudeService {
         break;
       } else {
         const chunkString = new TextDecoder().decode(value, { stream: true });
-        answer += this.parseEvent(chunkString);
+        const result = this.parseEvent(chunkString);
+        if (result && result.length > 0) answer += result;
       }
     }
 
