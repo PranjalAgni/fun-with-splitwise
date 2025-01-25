@@ -2,12 +2,14 @@ import { Router, Request, Response } from "express";
 import { ExpenseService } from "../services/expense";
 import { FLAT_GROUP_ID, NIT_USER_ID, SANDY_USER_ID } from "../config/constants";
 import { ClaudeService } from "../services/claude";
+import { OpenAIService } from "../services/openai";
 
 // initalizing a router to attach endpoints
 const expenseRouter = Router();
 
 const expenseService = new ExpenseService();
 const claudeService = new ClaudeService();
+const openaiService = new OpenAIService();
 
 expenseRouter.get("/monthly-spendings", async (req: Request, res: Response) => {
   const data = await expenseService.calculateMonthlySpendings();
@@ -57,13 +59,14 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   const allCategories = [];
   let pos = 0;
   for (const expense of expenses) {
-    if (pos >= 1) {
+    if (pos >= 10) {
       break;
     } else {
-      const whatcategory = await claudeService.askClaude(expense.description);
+      // const whatcategory = await claudeService.askClaude(expense.description);
+      const c = await openaiService.askOpenAI(expense.description);
       allCategories.push({
         name: expense.description,
-        category: whatcategory,
+        category: c.choices[0].message.content,
       });
     }
     pos += 1;
