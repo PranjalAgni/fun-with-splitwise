@@ -2,7 +2,7 @@
 
 - Tech Stack:
   - Node.js + TS
-  - Claude
+  - OpenAI API
   - Splitwise API
   - Need to write tests
 
