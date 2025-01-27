@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
-import { SplitwiseService } from "./services/splitwise";
-import expenseRouter from "./router/expenseRouter";
-import splitwiseRouter from "./router/splitwiseRouter";
+import { SplitwiseService } from "./services/splitwise.js";
+import expenseRouter from "./router/expenseRouter.js";
+import splitwiseRouter from "./router/splitwiseRouter.js";
 
 export const initalizeServer = async () => {
   const sw = new SplitwiseService();

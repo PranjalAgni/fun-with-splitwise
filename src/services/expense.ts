@@ -1,10 +1,10 @@
 import fs from "fs/promises";
 import path from "path";
-import { FLAT_SPLITWISE_GROUP_EXPENSES } from "../config/constants";
-import env from "../config/env";
-import { IExpense } from "../interface";
-import { getMonthNameFromDate, getYearFromDate } from "../utils/date";
-import { parseAmount } from "../utils/math";
+import { FLAT_SPLITWISE_GROUP_EXPENSES } from "../config/constants.js";
+import env from "../config/env.js";
+import { IExpense } from "../interface.js";
+import { getMonthNameFromDate, getYearFromDate } from "../utils/date.js";
+import { parseAmount } from "../utils/math.js";
 
 export class ExpenseService {
   private groupId: number;
@@ -14,7 +14,7 @@ export class ExpenseService {
   constructor(groupId: number = env.GROUP_ID, userId: number = env.USER_ID) {
     this.groupId = groupId;
     this.userId = userId;
-    this.dataDir = path.join(__dirname, "../", "../", "data");
+    this.dataDir = path.join(import.meta.dirname, "../", "../", "data");
   }
 
   private filterExpensesById(expenses: IExpense[]): IExpense[] {

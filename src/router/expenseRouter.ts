@@ -1,8 +1,13 @@
 import { Router, Request, Response } from "express";
-import { ExpenseService } from "../services/expense";
-import { FLAT_GROUP_ID, NIT_USER_ID, SANDY_USER_ID } from "../config/constants";
-import { ClaudeService } from "../services/claude";
-import { OpenAIService } from "../services/openai";
+import { ExpenseService } from "../services/expense.js";
+import {
+  FLAT_GROUP_ID,
+  NIT_USER_ID,
+  SANDY_USER_ID,
+} from "../config/constants.js";
+import { ClaudeService } from "../services/claude.js";
+import { OpenAIService } from "../services/openai.js";
+import { initDB } from "../cache.js";
 
 // initalizing a router to attach endpoints
 const expenseRouter = Router();
@@ -58,12 +63,18 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   const expenses = await expenseService.readAndParseExpenses();
   const allCategories = [];
   let pos = 0;
+  const db = await initDB();
   for (const expense of expenses) {
     if (pos >= 10) {
       break;
     } else {
       // const whatcategory = await claudeService.askClaude(expense.description);
       const c = await openaiService.askOpenAI(expense.description);
+      db.data.llm.push({
+        expense: expense.description,
+        category: c.choices[0].message.content!,
+      });
+
       allCategories.push({
         name: expense.description,
         category: c.choices[0].message.content,

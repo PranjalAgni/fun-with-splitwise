@@ -1,5 +1,5 @@
-import { initalizeServer } from "./app";
-import env from "./config/env";
+import { initalizeServer } from "./app.js";
+import env from "./config/env.js";
 
 async function main() {
   const app = await initalizeServer();

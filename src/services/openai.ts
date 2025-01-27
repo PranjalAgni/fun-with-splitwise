@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { prompt } from "../config/prompt";
+import { prompt } from "../config/prompt.js";
 
 export class OpenAIService {
   private openai: OpenAI;
@@ -19,8 +19,6 @@ export class OpenAIService {
       ],
     });
 
-    console.log("query: %s", expenseDescription);
-    console.log("oai completion: %s", JSON.stringify(completion));
     return completion;
   }
 }

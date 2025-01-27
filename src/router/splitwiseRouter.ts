@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { SplitwiseService } from "../services/splitwise";
+import { SplitwiseService } from "../services/splitwise.js";
 
 const splitwiseRouter = Router();
 

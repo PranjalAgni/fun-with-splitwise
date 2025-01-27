@@ -1,5 +1,5 @@
-import env from "../config/env";
-import { prompt } from "../config/prompt";
+import env from "../config/env.js";
+import { prompt } from "../config/prompt.js";
 
 export class ClaudeService {
   private baseURL: string;

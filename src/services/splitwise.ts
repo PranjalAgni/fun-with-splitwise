@@ -1,8 +1,8 @@
 import fs from "fs/promises";
 import path from "path";
 import Splitwise from "splitwise";
-import { FLAT_SPLITWISE_GROUP_EXPENSES } from "../config/constants";
-import env from "../config/env";
+import { FLAT_SPLITWISE_GROUP_EXPENSES } from "../config/constants.js";
+import env from "../config/env.js";
 
 export class SplitwiseService {
   private sw: any;
@@ -13,7 +13,7 @@ export class SplitwiseService {
   constructor() {
     this.groupId = env.GROUP_ID;
     this.userId = env.USER_ID;
-    this.dataDir = path.join(__dirname, "../", "../", "data");
+    this.dataDir = path.join(import.meta.dirname, "../", "../", "data");
     this.sw = Splitwise({
       consumerKey: env.CONSUMER_KEY,
       consumerSecret: env.CONSUMER_SECRET,
