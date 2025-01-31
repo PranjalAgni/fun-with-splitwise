@@ -84,6 +84,7 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   }
 
   // todo: need to test the API
+  await db.write();
   res.status(200).json(allCategories);
 });
 

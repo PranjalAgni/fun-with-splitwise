@@ -1,5 +1,5 @@
-import { JSONFilePreset } from "lowdb/node";
-
+import { Low } from "lowdb";
+import { JSONFile } from "lowdb/node";
 type Data = {
   llm: {
     expense: string;
@@ -11,8 +11,9 @@ type Data = {
 const defaultData = { llm: [] };
 
 export async function initDB() {
-  const db = await JSONFilePreset<Data>("db.json", defaultData);
-  const ss = await db.read();
-  console.log(JSON.stringify(ss));
+  const db = new Low(new JSONFile<Data>("db.json"), defaultData);
+  // const db = await JSONFilePreset<Data>("db.json", defaultData);
+  // const ss = await db.read();
+  // console.log(JSON.stringify(ss));
   return db;
 }
