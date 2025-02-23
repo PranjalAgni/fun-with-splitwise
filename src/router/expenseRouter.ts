@@ -69,15 +69,15 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
       break;
     } else {
       // const whatcategory = await claudeService.askClaude(expense.description);
-      const c = await openaiService.askOpenAI(expense.description);
+      const category = await openaiService.askOpenAI(expense.description);
       db.data.llm.push({
         expense: expense.description,
-        category: c.choices[0].message.content!,
+        category: category.choices[0].message.content!,
       });
 
       allCategories.push({
         name: expense.description,
-        category: c.choices[0].message.content,
+        category: category.choices[0].message.content,
       });
     }
     pos += 1;
