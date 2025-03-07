@@ -41,6 +41,6 @@ export class SplitwiseService {
       "utf8"
     );
 
-    console.log("Wrote expenses to file");
+    console.log("Wrote expenses to file", path.join(this.dataDir, filename));
   }
 }

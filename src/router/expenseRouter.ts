@@ -5,7 +5,6 @@ import {
   NIT_USER_ID,
   SANDY_USER_ID,
 } from "../config/constants.js";
-import { ClaudeService } from "../services/claude.js";
 import { OpenAIService } from "../services/openai.js";
 import { initDB } from "../cache.js";
 
@@ -13,7 +12,6 @@ import { initDB } from "../cache.js";
 const expenseRouter = Router();
 
 const expenseService = new ExpenseService();
-const claudeService = new ClaudeService();
 const openaiService = new OpenAIService();
 
 expenseRouter.get("/monthly-spendings", async (req: Request, res: Response) => {
@@ -63,29 +61,50 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   const expenses = await expenseService.readAndParseExpenses();
   const allCategories = [];
   let pos = 0;
-  const db = await initDB();
+  const cache = await initDB();
+  let isFromCache = false;
   for (const expense of expenses) {
     if (pos >= 10) {
       break;
     } else {
-      // const whatcategory = await claudeService.askClaude(expense.description);
-      const category = await openaiService.askOpenAI(expense.description);
-      db.data.llm.push({
-        expense: expense.description,
-        category: category.choices[0].message.content!,
-      });
+      let category = "";
+      // Check if the expense is already in the cache
+      const cachedCategory = cache.data.llm.find(
+        (item) => item.expense === expense.description
+      );
+      if (!cachedCategory) {
+        const response = await openaiService.askOpenAI(expense.description);
+        cache.data.llm.push({
+          expense: expense.description,
+          category: response.choices[0].message.content!,
+        });
+
+        category = response.choices[0].message.content!;
+      } else {
+        category = cachedCategory.category;
+        isFromCache = true;
+      }
 
       allCategories.push({
         name: expense.description,
-        category: category.choices[0].message.content,
+        category,
+        metadata: {
+          msg: isFromCache ? "From Cache" : "From AI",
+        },
       });
+
+      pos += 1;
+      await cache.write();
     }
-    pos += 1;
   }
 
-  // todo: need to test the API
-  await db.write();
   res.status(200).json(allCategories);
+});
+
+expenseRouter.get("/cache-test", async (req: Request, res: Response) => {
+  const db = await initDB();
+  const data = await db.read();
+  res.status(200).json(data);
 });
 
 export default expenseRouter;

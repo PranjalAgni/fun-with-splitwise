@@ -1,0 +1,44 @@
+{
+  "llm": [
+    {
+      "expense": "Groceries",
+      "category": "grocery"
+    },
+    {
+      "expense": "Sneha ke breast",
+      "category": "miscellaneous"
+    },
+    {
+      "expense": "Vegetables from Vijetha on 19th Feb",
+      "category": "grocery"
+    },
+    {
+      "expense": "Curd ",
+      "category": "grocery"
+    },
+    {
+      "expense": "Cook salary in feb ",
+      "category": "cook salary"
+    },
+    {
+      "expense": "Maid salary",
+      "category": "maid salary"
+    },
+    {
+      "expense": "Extra electricity ",
+      "category": "miscellaneous"
+    },
+    {
+      "expense": "Egg tray on 16th Feb",
+      "category": "grocery"
+    },
+    {
+      "expense": "Belan, veggies",
+      "category": "grocery"
+    },
+    {
+      "expense": "Sunflower oil on 23rd Feb",
+      "category": "kitchen"
+    }
+  ]
+}
