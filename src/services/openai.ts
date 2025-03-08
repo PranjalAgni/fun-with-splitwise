@@ -8,7 +8,7 @@ export class OpenAIService {
     this.openai = new OpenAI();
   }
 
-  public async askOpenAI(expenseDescription: string) {
+  public async fetchCategoryFromGPT(expenseDescription: string) {
     const completion = await this.openai.chat.completions.create({
       model: "gpt-4o-mini",
       store: true,

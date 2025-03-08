@@ -73,7 +73,7 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
         (item) => item.expense === expense.description
       );
       if (!cachedCategory) {
-        const response = await openaiService.askOpenAI(expense.description);
+        const response = await openaiService.fetchCategoryFromGPT(expense.description);
         cache.data.llm.push({
           expense: expense.description,
           category: response.choices[0].message.content!,
@@ -99,12 +99,6 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
   }
 
   res.status(200).json(allCategories);
-});
-
-expenseRouter.get("/cache-test", async (req: Request, res: Response) => {
-  const db = await initDB();
-  const data = await db.read();
-  res.status(200).json(data);
 });
 
 export default expenseRouter;
