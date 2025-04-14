@@ -73,7 +73,9 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
         (item) => item.expense === expense.description
       );
       if (!cachedCategory) {
-        const response = await openaiService.fetchCategoryFromGPT(expense.description);
+        const response = await openaiService.fetchCategoryFromGPT(
+          expense.description
+        );
         cache.data.llm.push({
           expense: expense.description,
           category: response.choices[0].message.content!,
