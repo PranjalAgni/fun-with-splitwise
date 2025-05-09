@@ -93,6 +93,7 @@ expenseRouter.get("/categorizer", async (req: Request, res: Response) => {
         metadata: {
           msg: isFromCache ? "From Cache" : "From AI",
         },
+        timestamp: new Date().toISOString(),
       });
 
       pos += 1;
