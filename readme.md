@@ -5,6 +5,7 @@
   - OpenAI API
   - Splitwise API
   - Need to write tests
+  - Claude reverse enginnered POC
 
 # Claude response example
 
