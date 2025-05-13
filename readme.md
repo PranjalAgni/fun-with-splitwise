@@ -6,6 +6,7 @@
   - Splitwise API
   - Need to write tests
   - Claude reverse enginnered POC
+  - Create expenses from dashboard
 
 # Claude response example
 
