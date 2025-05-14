@@ -7,6 +7,7 @@
   - Need to write tests
   - Claude reverse enginnered POC
   - Create expenses from dashboard
+  - Add date column in expenses
 
 # Claude response example
 
