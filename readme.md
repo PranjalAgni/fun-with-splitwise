@@ -8,6 +8,8 @@
   - Claude reverse enginnered POC
   - Create expenses from dashboard
   - Add date column in expenses
+  - Need to explore CSS grid
+    
 
 # Claude response example
 
